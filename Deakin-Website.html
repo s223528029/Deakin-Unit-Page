@@ -3,23 +3,42 @@
   <head>
     <title> Deakin Website </title>
     <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    
+    <style>
+      /* CSS to space out the study sections */
+      .study-section {
+        margin-bottom: 20px; /* Adds space below each section */
+      }
+      .study-section a {
+        display: block; /* Ensures each link is on its own line */
+        margin-top: 5px; /* Adds space above each link */
+      }
+    </style>
+    
   </head>
   <div>
     <img src="logo.svg" alt="Deakin" width="200" height="210">
   </div>
   <body>
-    <h1>Deakin University</h1>
+        <h3>Study</h3>
     
-    <h3>Study</h3>
-    <p>Explore our diverse range of undergraduate courses and take your first step towards your ultimate career</p>
-    <a href="https://www.deakin.edu.au/study/find-a-course/undergraduate-courses" > > Undergraduate courses</a>
+    <div class="study-section">
+      <p>Explore our diverse range of undergraduate courses and take your first step towards your ultimate career</p>
+      <a href="https://www.deakin.edu.au/study/find-a-course/undergraduate-courses">Undergraduate courses</a>
+    </div>
+    
+    <div class="study-section">
+      <p>Elevate your career with our postgraduate courses</p>
+      <a href="https://www.deakin.edu.au/study/find-a-course/postgraduate-courses">Postgraduate courses</a>
+    </div>
 
-    <p>Elevate your career with our postgraduate courses</p>
-    <a href="https://www.deakin.edu.au/study/find-a-course/postgraduate-courses" > > Postgraduate courses</a>
-    <p></p>
-    <a href="https://www.deakin.edu.au/research/why-choose-deakin-for-your-research-degree/find-a-research-degree-or-phd?filter_student_type=domestic" > > Research degrees and PHD</a>
-    <p></p>
-    <a href="https://www.deakin.edu.au/courses-search/unit-search.php?chkSortby=unit_cd&hidCurrentYear=2024&hidType=max&hidYear=2024&selLevel=Select&selLocation=Select&selMode=Select&selSemester=Select&txtKeyword=" > > Unit search</a>
+    <div class="study-section">
+      <a href="https://www.deakin.edu.au/research/why-choose-deakin-for-your-research-degree/find-a-research-degree-or-phd?filter_student_type=domestic">Research degrees and PhD</a>
+    </div>
+
+    <div class="study-section">
+      <a href="https://www.deakin.edu.au/courses-search/unit-search.php?chkSortby=unit_cd&hidCurrentYear=2024&hidType=max&hidYear=2024&selLevel=Select&selLocation=Select&selMode=Select&selSemester=Select&txtKeyword=">Unit search</a>
+    </div>
     
   </body>
 </html>
