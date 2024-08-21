@@ -26,3 +26,34 @@ th, td {
 }
 
 tr:nth-child(odd) {background-color: #f2f2f2;}
+
+.flex-container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 10px;
+  background-color: #ffffff;
+  flex-flow: row wrap;
+}
+
+.flex-container > div {
+  flex: 1;
+  background-color: #f1f1f1;
+  margin: 10px;
+  padding: 10px;
+  text-align: center;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.flex-container > div img {
+  margin-bottom: 10px;
+  height: auto;
+}
+
+.flex-container > div p h3 {
+  text-align: center;
+  margin: 0;
+  line-height: 1.5;
+}
