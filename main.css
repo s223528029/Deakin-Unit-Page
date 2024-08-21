@@ -15,7 +15,10 @@ p {
 }
 div {
   background-color: darkcyan;
-  text-align: right;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
 }
 
 th, td {
